@@ -75,36 +75,39 @@ Notes: Finished product approved, including SOUTHGATE CALC visual design.
 
 ### M5.0 — Install Git
 
-- [ ] `git --version` works on this PC
+- [x] `git --version` works on this PC
 
-**Signed off by:** _______________ **Date:** _______________
+**Signed off by:** Agent (verified `git version 2.55.0.windows.3`) **Date:** 2026-08-14
 
 ### M5.1 — Local Git repo + first commit
 
-- [ ] `git status` clean after first commit
-- [ ] `git log -1` shows the initial commit
+- [x] `git status` clean after first commit
+- [x] `git log -1` shows the initial commit
 
-**Signed off by:** _______________ **Date:** _______________
+**Signed off by:** Agent (commit `a66e0a9`) **Date:** 2026-08-14
 
 ### M5.2 — GitHub remote + push
 
-- [ ] Repo visible at https://github.com/alexhinrichs/southgatecalc
-- [ ] Local `main` matches remote
+- [x] Repo visible at https://github.com/alexhinrichs/southgatecalc
+- [x] Local `main` matches remote
 
-**Signed off by:** _______________ **Date:** _______________
+**Signed off by:** Agent **Date:** 2026-08-14
 
 ### M5.3 — Enable Pages
 
-- [ ] Pages source: branch `main`, folder `/ (root)`
-- [ ] https://alexhinrichs.github.io/southgatecalc/ loads SOUTHGATE CALC
+- [x] Pages source: branch `main`, folder `/ (root)`
+- [x] https://alexhinrichs.github.io/southgatecalc/ loads SOUTHGATE CALC
 
-**Signed off by:** _______________ **Date:** _______________
+**Signed off by:** Agent **Date:** 2026-08-14
 
 ### M5.4 — Live smoke + docs
 
-- [ ] Live demo script passes on the public URL
-- [ ] Site works with local `npm start` stopped
-- [ ] README lists the public Pages URL
+- [x] Live demo script passes on the public URL
+- [x] Site works with local `npm start` stopped
+- [x] README lists the public Pages URL
 - [ ] Doc updates committed and pushed
+- [ ] Alex confirms M5 complete
 
 **Signed off by:** _______________ **Date:** _______________
+
+Notes: Agent pre-verified live demo (`15`, `Error→0`, `6.28`, clear). Final Alex signoff still welcome.

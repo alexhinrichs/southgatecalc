@@ -2,13 +2,19 @@
 
 Bare-bones four-function calculator that runs in the browser. Space-age dark theme with yellow keys.
 
+## Live site
+
+**Public URL (GitHub Pages):** [https://alexhinrichs.github.io/southgatecalc/](https://alexhinrichs.github.io/southgatecalc/)
+
+Hosted on GitHub’s CDN — not your home network. Source: [github.com/alexhinrichs/southgatecalc](https://github.com/alexhinrichs/southgatecalc).
+
 ## Status
 
 **M4 — Finished product** (complete — Alex signed off)
 
-**M5 — GitHub Pages** (in progress)
+**M5 — GitHub Pages** (live)
 
-Milestones M0–M4 are complete and signed off.
+Milestones M0–M5 are complete.
 
 ## Features
 
@@ -49,6 +55,20 @@ Uses Node’s built-in test runner against the pure engine in `src/calculator.js
 | `tests/` | Automated engine tests |
 | `docs/VISUAL_HANDOFF.md` | Milestone visual QA checklists |
 
+## Deploy (GitHub Pages)
+
+Already configured: branch `main`, folder `/ (root)`.
+
+After you change the app:
+
+```bash
+git add -A
+git commit -m "Your message"
+git push
+```
+
+GitHub Pages rebuilds from `main` in about a minute.
+
 ## Non-goals / limitations
 
 Out of scope for this release:
@@ -57,13 +77,12 @@ Out of scope for this release:
 - Calculation history / memory keys
 - Scientific functions, percent, backspace
 - Backend, auth, analytics
-- CI pipeline
-
-**Optional next step (M5):** host the same static files on GitHub Pages, Netlify, or Cloudflare Pages for a public URL. No app rewrite required.
+- CI pipeline / custom domain
 
 ## Definition of Done
 
 - F1–F7 covered by automated tests and the visual demo script
 - `npm test` passes with zero failures
 - App runs from README instructions
+- Public Pages URL works over HTTPS
 - Known limitations documented (this section)
