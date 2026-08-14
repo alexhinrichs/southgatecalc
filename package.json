@@ -1,0 +1,14 @@
+{
+  "name": "southgate-calc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bare-bones four-function calculator for the browser",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
